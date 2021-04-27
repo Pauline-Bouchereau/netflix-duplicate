@@ -1,1 +1,69 @@
-/* Other rules */
+/* Global rules */
+
+:root {
+  --netflix-red: #e50a17;
+}
+
+body {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Header */
+header img {
+  width: 150px;
+}
+
+/* Main */
+main {
+  margin: 20px 0;
+}
+
+main section:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+main section > div {
+  display: flex;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  width: 100%;
+}
+main section > div::-webkit-scrollbar {
+  display: none;
+}
+
+main img {
+  width: calc(100% / 5.5 - (25px / 5.5));
+}
+
+main img:not(:last-child) {
+  margin-right: 5px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer a:hover {
+  color: var(--netflix-red);
+}
