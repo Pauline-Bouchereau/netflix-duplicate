@@ -42,7 +42,7 @@ main section > div::-webkit-scrollbar {
 }
 
 main img {
-  width: calc(100% / 5.5 - (25px / 5.5));
+  width: 280px;
 }
 
 main img:not(:last-child) {
