@@ -1,12 +1,12 @@
 # 🍿 NETFLIX
 
-**Need a break ?** Check out this duplicate of the Netflix home page and choose the next movie you want to see ! 
+**Need a break ?** Check out this duplicate of the Netflix home page and choose the next movie you want to see !
 
 **Frontend project**
 
 👉 Netlify Link to see the live version [HERE](https://netflix-duplicate-pb.netlify.app/)
 
-![Screenshot of the website](./src/assets/jobboard.png)
+![Screenshot of the website](./src/assets/netflix.png)
 
 _Made in 2021 @ Le Reacteur_
 
@@ -33,7 +33,7 @@ cd netflix-duplicate
 #### Install packages :
 
 ```javascript
-yarn
+yarn;
 ```
 
 #### When installation is complete :
